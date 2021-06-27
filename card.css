@@ -1,0 +1,102 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background: lavenderblush;
+    height:130vh;
+}
+.scattered-cards{
+    display:flex;
+    flex-direction: row wrap;
+    flex-wrap: wrap;
+    background: rgb(229, 241, 221);
+    height:75vh;
+    
+}
+.card{
+    width:60px;
+    height:80px;
+    background:rgb(111, 107, 103);  
+    margin:10px;  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(218, 184, 196);
+    height:35vh;
+    margin:30px;
+}
+.result-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     width:200px;
+     height:30vh;
+     background:rgb(133, 129, 129);
+}
+.card-holders{
+    display:flex;
+     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   width: 700px;
+   height:30vh;
+   background: rgb(223, 122, 122)
+}
+#result{
+    height:80px;
+    width:140px;
+    background: white;
+}
+#restart-button{
+    height:40px;
+    width:100px;
+    margin:5px;
+    font-weight: 900;
+}
+img{
+    width:50px;
+    height:75px;
+    contain: content;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blueviolet;
+    font-size: 23px;
+    font-weight: 1000;
+}
+.cardC{
+    background-image: url("https://github.com/Newton-School/Deck_of_Cards/blob/main/JPEG/club.png?raw=true");
+}
+.cardD{
+     background-image: url("https://github.com/Newton-School/Deck_of_Cards/blob/main/JPEG/diamond.jpg?raw=true");
+}
+.cardH{
+    background-image: url("https://github.com/Newton-School/Deck_of_Cards/blob/main/JPEG/heart.png?raw=true");
+}
+.cardS{
+    background-image: url("https://raw.githubusercontent.com/Newton-School/Deck_of_Cards/main/JPEG/spade.png");
+}
+h2{
+    align-items: center;
+    text-align: center;
+    color: blue;
+}
+h3{
+    align-items: center;
+    text-align: center;
+    color:rgb(58, 96, 96);
+}
+#allcards{
+    margin:30px;
+    height:60vh;
+}
